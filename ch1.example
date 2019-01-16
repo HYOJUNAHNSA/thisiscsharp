@@ -1,0 +1,14 @@
+using System;
+using static System.Console;
+
+namespace BrainCSharp
+{
+    class HelloWorld
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("여러분, 안녕하세요?\r\n반갑습니다!"); // C#에서는 줄바꿈 문자 사용 시, \r\n 동시 사용
+            return;
+        }
+    }
+}
